@@ -1,0 +1,7 @@
+version: '3.5'
+services:
+  ballerina:
+    container_name: scratchy-ballerina
+    build:
+      context: .
+      dockerfile: Dockerfile
